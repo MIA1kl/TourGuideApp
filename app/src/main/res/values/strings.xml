@@ -13,9 +13,9 @@
     <string name="details_directions_btn">Get Directions</string>
 
     <string name="main">See Guide</string>
-    <string name="cat_museums">Museums</string>
-    <string name="cat_parks">Parks</string>
     <string name="cat_monuments">Monuments</string>
+    <string name="cat_parks">Parks</string>
+    <string name="cat_hotels">Hotels</string>
 
     <string name="cd_back_btn">Back Button</string>
     <string name="cd_header_img">Header Image</string>

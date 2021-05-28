@@ -23,9 +23,9 @@ public class CategoriesAdapter extends FragmentPagerAdapter {
         super(fragmentManager);
 
         // Set Tab Titles
-        tabTitles[0] = context.getString(R.string.cat_museums);
+        tabTitles[0] = context.getString(R.string.cat_monuments);
         tabTitles[1] = context.getString(R.string.cat_parks);
-        tabTitles[2] = context.getString(R.string.cat_monuments);
+        tabTitles[2] = context.getString(R.string.cat_hotels);
     }
 
     /** @return Returns the number of pages. */
