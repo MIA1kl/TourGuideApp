@@ -29,7 +29,7 @@ public class MuseumsFragment extends Fragment {
         String[] museumsNames = getResources().getStringArray(R.array.museums_names);
         String[] museumsAddresses = getResources().getStringArray(R.array.museums_addresses);
         String[] museumsDescriptions = getResources().getStringArray(R.array.museums_descriptions);
-        String[] museumsHours = getResources().getStringArray(R.array.museums_hours);
+
         String[] museumsPhones = getResources().getStringArray(R.array.museums_phones);
 
         // Add Google Maps URIs
@@ -69,7 +69,6 @@ public class MuseumsFragment extends Fragment {
                     museumsNames[i],
                     museumsDescriptions[i],
                     museumsAddresses[i],
-                    museumsHours[i],
                     Utils.addPrefix(museumsPhones[i]),
                     museumsMapUris[i],
                     museumsImages[i]));

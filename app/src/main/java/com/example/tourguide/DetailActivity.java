@@ -56,12 +56,7 @@ public class DetailActivity extends AppCompatActivity {
             Utils.hideView(DetailActivity.this, R.id.details_address_container);
         }
 
-        // Set Business Hours
-        if (!thisLandmark.getHours().isEmpty()) {
-            Utils.fillText(DetailActivity.this, R.id.details_hours_content, thisLandmark.getHours());
-        } else {
-            Utils.hideView(DetailActivity.this, R.id.details_hours_container);
-        }
+
 
         // Set Phone Number & Attach Intent to Dial the Number
         if (!thisLandmark.getPhone().isEmpty()) {

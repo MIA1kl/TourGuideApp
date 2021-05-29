@@ -7,7 +7,7 @@
     <string name="about_section_title">About</string>
     <string name="details_section_title">Details</string>
     <string name="details_address_title">Address:</string>
-    <string name="details_hours_title">Hours:</string>
+
     <string name="details_phone_title">Phone:</string>
     <string name="details_call_btn">Call</string>
     <string name="details_directions_btn">Get Directions</string>
@@ -63,18 +63,7 @@
         <item>The National Military Museum, was established in 1923 by King Ferdinand. It has been at its present site since 1988, in a building finished in 1898.</item>
         <item>The Museum of the Romanian Railways in Bucharest was inaugurated on June 10, 1939, under the name of \"Muzeul Ceferiștilor\", during the \"Ceferiadei\" celebrations that celebrated the 70th anniversary of the opening of the Bucharest-Filaret-Giurgiu railway. The original location was in the park and arenas of the Giulesti Stadium.</item>
     </string-array>
-    <string-array name="museums_hours">
-        <item>Monday &#8211; Tuesday: Closed\nWednesday &#8211; Sunday: 10:00&#8211;18:00</item>
-        <item>Monday &#8211; Thursday: 08:00&#8211;16:30\nFriday: 08:00&#8211;14:00\nSaturday &#8211; Sunday: Closed</item>
-        <item>Monday: Closed\nTuesday &#8211; Friday: 10:00&#8211;18:00\nSaturday &#8211; Sunday: 10:00&#8211;19:00</item>
-        <item>Monday: Closed\nTuesday &#8211; Sunday: 09:00&#8211;17:00</item>
-        <item>Monday &#8211; Tuesday: Closed\nWednesday &#8211; Sunday: 09:00&#8211;17:00</item>
-        <item>Everyday: 10:00&#8211;18:00</item>
-        <item>Monday &#8211; Tuesday: Closed\nWednesday &#8211; Sunday: 10:00&#8211;18:00</item>
-        <item>Monday &#8211; Thursday: 10:00&#8211;14:00\nFriday: 10:00&#8211;13:00\nSaturday: Closed\nSunday: 10:00&#8211;13:00</item>
-        <item>Monday &#8211; Tuesday: Closed\nWednesday &#8211; Sunday: 09:00&#8211;17:00</item>
-        <item>Monday &#8211; Tuesday: Closed\nWednesday &#8211; Sunday: 10:00&#8211;16:00</item>
-    </string-array>
+
     <string-array name="museums_phones">
         <item>21 313 3030</item>
         <item>21 317 9103</item>
@@ -122,17 +111,7 @@
         <item>The Bucharest Botanical Garden, now named after its founder, Dimitrie Brândză, is located in the Cotroceni neighbourhood of Bucharest, Romania. It has a surface of 17.5 hectares, and has more than 10,000 species of plants.</item>
         <item>Green space demarcated around 1832, with sculptures and busts of notable Romanians and Roman poet Publius Ovidius Naso (Romanian: Ovidiu).</item>
     </string-array>
-    <string-array name="parks_hours">
-        <item>Everyday: 09:30-23:00</item>
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-        <item>Everyday: 08:00&#8211;20:00</item>
-        <item>Open 24/7</item>
-    </string-array>
+
     <string-array name="parks_phones">
         <item>+82 2 1661 2000</item>
         <item>744 630 000</item>
@@ -167,13 +146,7 @@
         <item>Mogoșoaia Palace is situated about 10 kilometres from Bucharest, Romania. It was built between 1698&#8211;1702 by Constantin Brâncoveanu in what is called the Romanian Renaissance style or Brâncovenesc style.</item>
         <item>Cantacuzino Palace was built by architect Ion D. Berindey in French Baroque/Art Nouveau style. Today it houses the George Enescu museum.</item>
     </string-array>
-    <string-array name="palaces_hours">
-        <item>March &#8211; October (Monday &#8211; Sunday): 09:00&#8211;17:00\nNovember &#8211; February (Monday &#8211; Sunday): 10:00&#8211;16:00</item>
-        <item>Monday: Closed\nTuesday &#8211; Sunday: 09:30&#8211;17:30</item>
-        <item> </item>
-        <item>Monday: Closed\nTuesday &#8211; Sunday: 10:00&#8211;18:00</item>
-        <item>Monday: Closed\nTuesday &#8211; Sunday: 10:00&#8211;17:00</item>
-    </string-array>
+
     <string-array name="palaces_phones">
         <item>733 558 102</item>
         <item>21 317 3106</item>
@@ -207,14 +180,7 @@
         <item>The statue of George Enescu was unveiledin Bucharest on the occasion of the official opening of this year\’s edition of the International Music Festival named after the great Romanian composer. According to a press release issued by the capital\’s city hall, the monument was donated to the municipality by sculptor Constantin Baraschi\’s family.</item>
         <item>This impresive memorial is dedicated to the Romanian soldiers who fell in both world wars. There are also Romanians fallen from the First World War buried here.</item>
     </string-array>
-    <string-array name="monuments_hours">
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-        <item>Open 24/7</item>
-    </string-array>
+
     <string-array name="monuments_phones">
         <item>787 584 104</item>
         <item> </item>
@@ -227,7 +193,7 @@
     <string name="placeholder_name">National Museum of Romanian History</string>
     <string name="placeholder_address">Calea Victoriei 12, Bucharest</string>
     <string name="placeholder_description">The National Museum of Romanian History is a museum located on Calea Victoriei in Bucharest, Romania, which contains Romanian historical artifacts from prehistoric times up to modern times.</string>
-    <string name="placeholder_hours">09:00 &#8211; 17:00</string>
+
     <string name="placeholder_phone">+40 21 315 8208</string>
     <string name="placeholder_category_title">Category</string>
 

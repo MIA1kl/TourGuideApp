@@ -99,26 +99,13 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/details_hours_container"
-                    android:layout_below="@id/details_address_container"
-                    style="@style/DetailsInfoContainer">
 
-                    <TextView
-                        android:id="@+id/details_hours_title"
-                        android:text="@string/details_hours_title"
-                        style="@style/DetailsInfoLineHeading" />
 
-                    <TextView
-                        android:id="@+id/details_hours_content"
-                        tools:text="@string/placeholder_hours"
-                        style="@style/DetailsInfoLineContent" />
 
-                </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/details_phone_container"
-                    android:layout_below="@id/details_hours_container"
+                    android:layout_below="@id/details_address_container"
                     style="@style/DetailsInfoContainer">
 
                     <TextView

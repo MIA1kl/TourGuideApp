@@ -39,7 +39,7 @@
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:background">@drawable/gradient_bg</item>
+        <item name="android:background">#333F51B5</item>
     </style>
 
     <style name="MainTitle">

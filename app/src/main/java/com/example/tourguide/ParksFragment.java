@@ -29,7 +29,7 @@ public class ParksFragment extends Fragment {
         String[] parksNames = getResources().getStringArray(R.array.parks_names);
         String[] parksAddresses = getResources().getStringArray(R.array.parks_addresses);
         String[] parksDescriptions = getResources().getStringArray(R.array.parks_descriptions);
-        String[] parksHours = getResources().getStringArray(R.array.parks_hours);
+
         String[] parksPhones = getResources().getStringArray(R.array.parks_phones);
 
         // Add Google Maps URIs
@@ -67,7 +67,6 @@ public class ParksFragment extends Fragment {
                     parksNames[i],
                     parksDescriptions[i],
                     parksAddresses[i],
-                    parksHours[i],
                     Utils.addPrefix(parksPhones[i]),
                     parksMapUris[i],
                     parksImages[i]));

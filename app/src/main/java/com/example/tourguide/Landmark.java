@@ -10,7 +10,7 @@ public class Landmark implements Serializable {
     private String mLandmark;
     private String mDescription;
     private String mAddress;
-    private String mHours;
+//    private String mHours;
     private String mPhone;
     private String mMapUri;
     private int mImageResourceId;
@@ -20,16 +20,16 @@ public class Landmark implements Serializable {
      * @param landmark Landmark Name
      * @param description Landmark Short Description
      * @param address Landmark Address
-     * @param hours Landmark Business Hours
+
      * @param phone Landmark Contact Phone
      * @param mapUri Landmark Map URI
      * @param image Landmark Drawable Resource ID
      */
-    public Landmark(String landmark, String description, String address, String hours, String phone, String mapUri, int image) {
+    public Landmark(String landmark, String description, String address,  String phone, String mapUri, int image) {
         mLandmark = landmark;
         mDescription = description;
         mAddress = address;
-        mHours = hours;
+
         mPhone = phone;
         mMapUri = mapUri;
         mImageResourceId = image;
@@ -51,9 +51,7 @@ public class Landmark implements Serializable {
     }
 
     /** @return Returns the Business Hours for the Landmark. */
-    public String getHours() {
-        return mHours;
-    }
+
 
     /** @return Returns the Contact Phone Number for the Landmark. */
     public String getPhone() {
@@ -80,7 +78,6 @@ public class Landmark implements Serializable {
                 "mLandmark='" + mLandmark + "', " +
                 "mDescription='" + mDescription + "', " +
                 "mAddress='" + mAddress + "', " +
-                "mHours='" + mHours + "', " +
                 "mPhone='" + mPhone + "', " +
                 "mMapUri='" + mMapUri + "', " +
                 "mImageResourceId='" + mImageResourceId + "' }";
