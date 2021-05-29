@@ -13,10 +13,10 @@
         android:contentDescription="@string/cd_category_item_bg"
         app:tint="@color/White" />
 
-    <TextView
-        android:id="@+id/cat_item_address"
-        tools:text="@string/placeholder_address"
-        style="@style/CategoryItemAddress" />
+<!--    <TextView-->
+<!--        android:id="@+id/cat_item_address"-->
+<!--        tools:text="@string/placeholder_address"-->
+<!--        style="@style/CategoryItemAddress" />-->
 
     <TextView
         android:id="@+id/cat_item_title"

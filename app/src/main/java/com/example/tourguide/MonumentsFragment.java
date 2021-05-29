@@ -26,11 +26,11 @@ public class MonumentsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
         // Get String Array Resources from the Strings File
-        String[] monumentsNames = getResources().getStringArray(R.array.monuments_names);
-        String[] monumentsAddresses = getResources().getStringArray(R.array.monuments_addresses);
-        String[] monumentsDescriptions = getResources().getStringArray(R.array.monuments_descriptions);
+        String[] monumentsNames = getResources().getStringArray(R.array.hotels_names);
+        String[] monumentsAddresses = getResources().getStringArray(R.array.hotels_addresses);
+        String[] monumentsDescriptions = getResources().getStringArray(R.array.hotels_descriptions);
 
-        String[] monumentsPhones = getResources().getStringArray(R.array.monuments_phones);
+        String[] monumentsPhones = getResources().getStringArray(R.array.hotels_phones);
 
         // Add Google Maps URIs
         String[] monumentsMapUris = {

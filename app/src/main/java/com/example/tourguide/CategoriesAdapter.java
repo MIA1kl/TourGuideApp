@@ -39,7 +39,7 @@ public class CategoriesAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return new MuseumsFragment();
+                return new HotelsFragment();
             case 1:
                 return new ParksFragment();
             case 2:

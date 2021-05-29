@@ -124,39 +124,9 @@
         <item>21 319 3253</item>
     </string-array>
 
-    <!--PALACES-->
-    <string-array name="palaces_names">
-        <item>Palace of the Parliament</item>
-        <item>Cotroceni Palace</item>
-        <item>Crețulescu Palace</item>
-        <item>Mogoșoaia Palace</item>
-        <item>Cantacuzino Palace</item>
-    </string-array>
-    <string-array name="palaces_addresses">
-        <item>Strada Izvor 2&#8211;4, Bucharest</item>
-        <item>Bulevardul Geniului 1, Bucharest</item>
-        <item>Strada Știrbei Vodă 39, Bucharest</item>
-        <item>Strada Valea Parcului 1, Mogoșoaia</item>
-        <item>Calea Victoriei 141, Bucharest</item>
-    </string-array>
-    <string-array name="palaces_descriptions">
-        <item>The Palace of the Parliament (Romanian: Palatul Parlamentului) is the seat of the Parliament of Romania. Located on Dealul Arsenalului in central Bucharest (Sector 5), it is the largest administrative building in the world with a height of 84 metres (276 ft), an area of 365,000 square metres (3,930,000 sq ft) and a volume of 2,550,000 cubic metres (90,000,000 cu ft). The Palace of the Parliament is also the heaviest building in the world, weighing in at around 4,098,500,000 kilograms (9.0356×109 lb).</item>
-        <item>Cotroceni Palace is the official residence of the President of Romania. Located at Bulevardul Geniului 1, in Bucharest, Romania, the palace also houses the National Cotroceni Museum.</item>
-        <item>Crețulescu Palace is a historic building near the Cișmigiu Gardens on the Știrbei Vodă street. It has been built for the Crețulescu family at the beginning of the 20th century, by Romanian architect Petre Antonescu.</item>
-        <item>Mogoșoaia Palace is situated about 10 kilometres from Bucharest, Romania. It was built between 1698&#8211;1702 by Constantin Brâncoveanu in what is called the Romanian Renaissance style or Brâncovenesc style.</item>
-        <item>Cantacuzino Palace was built by architect Ion D. Berindey in French Baroque/Art Nouveau style. Today it houses the George Enescu museum.</item>
-    </string-array>
-
-    <string-array name="palaces_phones">
-        <item>733 558 102</item>
-        <item>21 317 3106</item>
-        <item> </item>
-        <item>21 350 6619</item>
-        <item>747 290 104</item>
-    </string-array>
 
     <!--MONUMENTS-->
-    <string-array name="monuments_names">
+    <string-array name="hotels_names">
         <item>Arcul de Triumf</item>
         <item>Memorial of Rebirth</item>
         <item>Equestrian Statue of Carol I</item>
@@ -164,7 +134,7 @@
         <item>George Enescu Statue</item>
         <item>Nation\'s Heroes Memorial</item>
     </string-array>
-    <string-array name="monuments_addresses">
+    <string-array name="hotels_addresses">
         <item>Piața Arcul de Triumf, Bucharest</item>
         <item>Piața Revoluției, Bucharest</item>
         <item>Calea Victoriei 49&#8211;53, Bucharest</item>
@@ -172,7 +142,7 @@
         <item>Bulevardul Mihail Kogălniceanu, Bucharest</item>
         <item>Strada General Candiano Popescu 105, Bucharest</item>
     </string-array>
-    <string-array name="monuments_descriptions">
+    <string-array name="hotels_descriptions">
         <item>Arcul de Triumf is a triumphal arch located in the northern part of Bucharest, on the Kiseleff Road. The first, wooden, triumphal arch was built hurriedly, after Romania gained its independence, so that the victorious troops could march under it.</item>
         <item>The Memorial of Rebirth is a memorial in Bucharest, Romania that commemorates the struggles and victims of the Romanian Revolution of 1989, which overthrew Communism.</item>
         <item>The equestrian statue of Carol I is a monument in Romania, situated in the central zone of Bucharest, on Calea Victoriei. The massive statue, cast in bronze, represents Carol I of Romania, the first King of Romania, mounted on his horse.</item>
@@ -181,7 +151,7 @@
         <item>This impresive memorial is dedicated to the Romanian soldiers who fell in both world wars. There are also Romanians fallen from the First World War buried here.</item>
     </string-array>
 
-    <string-array name="monuments_phones">
+    <string-array name="hotels_phones">
         <item>787 584 104</item>
         <item> </item>
         <item> </item>
@@ -193,7 +163,6 @@
     <string name="placeholder_name">National Museum of Romanian History</string>
     <string name="placeholder_address">Calea Victoriei 12, Bucharest</string>
     <string name="placeholder_description">The National Museum of Romanian History is a museum located on Calea Victoriei in Bucharest, Romania, which contains Romanian historical artifacts from prehistoric times up to modern times.</string>
-
     <string name="placeholder_phone">+40 21 315 8208</string>
     <string name="placeholder_category_title">Category</string>
 

@@ -49,8 +49,7 @@ public class LandmarkAdapter extends ArrayAdapter<Landmark> {
         // Set the Category Item Title
         Utils.fillText(listItemView, R.id.cat_item_title, currentLandmark.getLandmarkName());
 
-        // Set the Category Item Address
-        Utils.fillText(listItemView, R.id.cat_item_address, currentLandmark.getAddress());
+
 
         // Set the Category Item Background Image
         Utils.fillImage(listItemView, R.id.cat_bg_image, currentLandmark.getImageId());

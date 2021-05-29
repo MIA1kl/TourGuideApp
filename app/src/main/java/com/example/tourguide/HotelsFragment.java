@@ -16,9 +16,9 @@ import java.util.ArrayList;
 /**
  * MuseumsFragment is the Class that displays the Museums Tab in the Categories Activity.
  */
-public class MuseumsFragment extends Fragment {
+public class HotelsFragment extends Fragment {
 
-    public MuseumsFragment() {}
+    public HotelsFragment() {}
 
     @Nullable
     @Override
