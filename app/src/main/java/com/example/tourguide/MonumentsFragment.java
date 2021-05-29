@@ -26,30 +26,30 @@ public class MonumentsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
         // Get String Array Resources from the Strings File
-        String[] monumentsNames = getResources().getStringArray(R.array.hotels_names);
-        String[] monumentsAddresses = getResources().getStringArray(R.array.hotels_addresses);
-        String[] monumentsDescriptions = getResources().getStringArray(R.array.hotels_descriptions);
+        String[] monumentsNames = getResources().getStringArray(R.array.monuments_names);
+        String[] monumentsAddresses = getResources().getStringArray(R.array.monuments_addresses);
+        String[] monumentsDescriptions = getResources().getStringArray(R.array.monuments_descriptions);
 
-        String[] monumentsPhones = getResources().getStringArray(R.array.hotels_phones);
+        String[] monumentsPhones = getResources().getStringArray(R.array.monuments_phones);
 
         // Add Google Maps URIs
         String[] monumentsMapUris = {
-                "https://www.google.com/maps/dir//The+Arch+Of+Triumph,+Pia%C8%9Ba+Arcul+de+Triumf,+Bucure%C8%99ti/@44.4671777,26.078116,15z/data=!4m16!1m6!3m5!1s0x0:0x57ae7c6e837bc61b!2sThe+Arch+Of+Triumph!8m2!3d44.4671777!4d26.078116!4m8!1m0!1m5!1m1!1s0x40b202172654ca11:0x57ae7c6e837bc61b!2m2!1d26.078116!2d44.4671777!3e3",
-                "https://www.google.com/maps/dir//Rebirth+Memorial,+Pia%C8%9Ba+Revolu%C8%9Biei,+Bucure%C8%99ti+030167/@44.4388942,26.097453,15z/data=!4m16!1m6!3m5!1s0x0:0xd2ec9ba0c7456177!2sRebirth+Memorial!8m2!3d44.4388942!4d26.097453!4m8!1m0!1m5!1m1!1s0x40b1ff45dcb30619:0xd2ec9ba0c7456177!2m2!1d26.097453!2d44.4388942!3e3",
-                "https://www.google.com/maps/dir//Equestrian+Statue+of+Carol+I,+Bucure%C8%99ti+030167/@44.4396476,26.0970161,15z/data=!4m16!1m6!3m5!1s0x0:0x1ff3885d06d59e62!2sEquestrian+Statue+of+Carol+I!8m2!3d44.4396476!4d26.0970161!4m8!1m0!1m5!1m1!1s0x40b1ff45931aafa5:0x1ff3885d06d59e62!2m2!1d26.0970161!2d44.4396476!3e3",
-                "https://www.google.com/maps/dir//Kilometre+Zero,+Bulevardul+Ion+C.+Br%C4%83tianu,+Bucure%C8%99ti+030167/@44.4327025,26.1040494,15z/data=!4m17!1m7!3m6!1s0x0:0x4ad53314f3dcaebf!2sKilometre+Zero,+Bulevardul+Ion+C.+Br%C4%83tianu,+Bucure%C8%99ti+030167!3b1!8m2!3d44.4327025!4d26.1040494!4m8!1m0!1m5!1m1!1s0x40b1ff3edff6735f:0x4ad53314f3dcaebf!2m2!1d26.1040494!2d44.4327025!3e3",
-                "https://www.google.com/maps/dir//Statue+of+George+Enescu,+Bulevardul+Mihail+Kog%C4%83lniceanu,+Bucure%C8%99ti/@44.4347229,26.0793548,15z/data=!4m16!1m6!3m5!1s0x0:0x93c7f0ac3cfa3bd7!2sStatue+of+George+Enescu!8m2!3d44.4347229!4d26.0793548!4m8!1m0!1m5!1m1!1s0x40b1ff6756b5300d:0x93c7f0ac3cfa3bd7!2m2!1d26.0793548!2d44.4347229!3e3",
-                "https://www.google.com/maps/dir//Nation's+Heroes+Memorial,+Strada+General+Candiano+Popescu+105,+Bucure%C8%99ti/@44.41127,26.0968789,15z/data=!4m16!1m6!3m5!1s0x0:0x3e7635bc09da2!2sNation's+Heroes+Memorial!8m2!3d44.41127!4d26.0968789!4m8!1m0!1m5!1m1!1s0x40b1ff07f2ee63ad:0x3e7635bc09da2!2m2!1d26.0968789!2d44.41127!3e3",
+                "https://www.google.com/maps/search/brandenburg+gate/@52.5154845,13.3780943,18z/data=!3m1!4b1?hl=ru",
+                "https://www.google.com/maps/place/Колонна+Победы/@52.5145434,13.3479302,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851af28d3f1c3:0x55627fdba380e5c9!8m2!3d52.5145621!4d13.350163?hl=ru",
+                "https://www.google.com/maps/place/St+George+Slaying+The+Dragon/@52.5163225,13.4034262,17z/data=!3m1!4b1!4m5!3m4!1s0x47a84e20b1aee8e9:0x3a512bca3e740e56!8m2!3d52.5163225!4d13.4056149?hl=ru",
+                "https://www.google.com/maps/place/Schillerbrunnen/@52.5136508,13.3904953,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851da449443b3:0x385640d99504df8a!8m2!3d52.5136508!4d13.392684?hl=ru",
+                "https://www.google.com/maps/place/Bismarck-Nationaldenkmal/@52.515895,13.3475615,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851a8b3c14135:0xaead31004749aa3c!8m2!3d52.5158525!4d13.3497594?hl=ru"
+
         };
 
         // Add Images Resource IDs
         int[] monumentsImages = {
-                R.drawable.arcul_de_triumf,
-                R.drawable.memorial_of_rebirth,
-                R.drawable.carol_i_statue,
-                R.drawable.kilometre_zero,
-                R.drawable.george_enescu_statue,
-                R.drawable.nations_heroes_memorial
+                R.drawable.brandenburg_gate,
+                R.drawable.victory_column,
+                R.drawable.dragon_statue,
+                R.drawable.schiller_monument,
+                R.drawable.nationaldenkmal,
+
         };
 
         // Initialize ArrayList of Landmarks

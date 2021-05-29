@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/cat_bg_image"
         style="@style/CategoryItemBackgroundImage"
-        tools:src="@drawable/national_museum_of_romanian_history"
+        tools:src="@drawable/nationaldenkmal"
         android:contentDescription="@string/cd_category_item_bg"
         app:tint="@color/White" />
 

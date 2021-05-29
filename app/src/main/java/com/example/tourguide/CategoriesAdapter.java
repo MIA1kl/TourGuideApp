@@ -39,11 +39,11 @@ public class CategoriesAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return new HotelsFragment();
+                return new MonumentsFragment();
             case 1:
                 return new ParksFragment();
             case 2:
-                return new MonumentsFragment();
+                return new HotelsFragment();
         }
         return null;
     }

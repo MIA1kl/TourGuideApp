@@ -34,28 +34,25 @@ public class ParksFragment extends Fragment {
 
         // Add Google Maps URIs
         String[] parksMapUris = {
-                "https://www.google.com/maps/dir/42.892185,74.6283312/lotte+world+amusement+park/@34.337989,64.795649,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x357ca5a7250efe81:0x433df2c1fec03b98!2m2!1d127.098167!2d37.5111158",
-                "https://www.google.com/maps/dir//King+Michael+I+Park,+Bucure%C8%99ti/@44.4702015,26.0827527,15z/data=!4m16!1m6!3m5!1s0x0:0x57f60ea89ec15526!2sKing+Michael+I+Park!8m2!3d44.4702015!4d26.0827527!4m8!1m0!1m5!1m1!1s0x40b20213bb079091:0x57f60ea89ec15526!2m2!1d26.0827527!2d44.4702015!3e3",
-                "https://www.google.com/maps/dir//Ci%C8%99migiu+Park,+Bulevardul+Regina+Elisabeta,+Bucure%C8%99ti+030167/@44.4369687,26.0909837,15z/data=!4m16!1m6!3m5!1s0x0:0x3e98ab275166423b!2sCi%C8%99migiu+Park!8m2!3d44.4369687!4d26.0909837!4m8!1m0!1m5!1m1!1s0x40b1ff438f7e6fcf:0x3e98ab275166423b!2m2!1d26.0909837!2d44.4369687!3e3",
-                "https://www.google.com/maps/dir//Youth+Park,+Bucure%C8%99ti/@44.4004916,26.1084371,15z/data=!4m16!1m6!3m5!1s0x0:0x9c229d7528e44f8e!2sYouth+Park!8m2!3d44.4004916!4d26.1084371!4m8!1m0!1m5!1m1!1s0x40b1ffaad2d5dcff:0x9c229d7528e44f8e!2m2!1d26.1084371!2d44.4004916!3e3",
-                "https://www.google.com/maps/dir//Alexandru+Ioan+Cuza+Park,+Bucure%C8%99ti/@44.4255117,26.1535332,15z/data=!4m16!1m6!3m5!1s0x0:0xf0489031c3cf5127!2sAlexandru+Ioan+Cuza+Park!8m2!3d44.4255117!4d26.1535332!4m8!1m0!1m5!1m1!1s0x40b1feb663d02dd3:0xf0489031c3cf5127!2m2!1d26.1535332!2d44.4255117!3e3",
-                "https://www.google.com/maps/dir//Carol+Park,+Bulevardul+M%C4%83r%C4%83%C8%99e%C8%99ti,+Bucure%C8%99ti/@44.4186655,26.0965164,15z/data=!4m16!1m6!3m5!1s0x0:0xbd8b38c1281359f0!2sCarol+Park!8m2!3d44.4186655!4d26.0965164!4m8!1m0!1m5!1m1!1s0x40b1ff0e5e8c275b:0xbd8b38c1281359f0!2m2!1d26.0965164!2d44.4186655!3e3",
-                "https://www.google.com/maps/dir//Drumul+Taberei+Park,+Drumul+Taberei,+Bucure%C8%99ti/@44.4208643,26.0313024,15z/data=!4m16!1m6!3m5!1s0x0:0x8772154e0f9b91ea!2sDrumul+Taberei+Park!8m2!3d44.4208643!4d26.0313024!4m8!1m0!1m5!1m1!1s0x40b20036c2aff6b1:0x8772154e0f9b91ea!2m2!1d26.0313024!2d44.4208643!3e3",
-                "https://www.google.com/maps/dir//Botanic+Garden,+%C8%98oseaua+Cotroceni+32,+Bucure%C8%99ti/@44.4372286,26.0626771,15z/data=!4m16!1m6!3m5!1s0x0:0x301135551489fb73!2sBotanic+Garden!8m2!3d44.4372286!4d26.0626771!4m8!1m0!1m5!1m1!1s0x40b201dd97d58297:0x301135551489fb73!2m2!1d26.0626771!2d44.4372286!3e3",
-                "https://www.google.com/maps/dir//Kiseleff+Park,+Bucure%C8%99ti/@44.4576517,26.0836661,15z/data=!4m16!1m6!3m5!1s0x0:0x2fe176e5d7d1b1ca!2sKiseleff+Park!8m2!3d44.4576517!4d26.0836661!4m8!1m0!1m5!1m1!1s0x40b20203c31f6dab:0x2fe176e5d7d1b1ca!2m2!1d26.0836661!2d44.4576517!3e3",
+                "https://www.google.com/maps/place/Шлоссгартен+Шарлоттенбург/@52.5170534,13.2600827,13z/data=!4m9!1m2!2m1!1sCharlottenburg+Palace+Gardens!3m5!1s0x47a8512e2a56082d:0x311cbd01e3aab5b8!8m2!3d52.5238664!4d13.2924939!15sCh1DaGFybG90dGVuYnVyZyBQYWxhY2UgR2FyZGVuc1ooCgdnYXJkZW5zIh1jaGFybG90dGVuYnVyZyBwYWxhY2UgZ2FyZGVuc5IBBmdhcmRlbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VNMFoxQmhTakpSUlJBQg",
+                "https://www.google.com/maps/place/Парк+Гёрлицер/@52.4966553,13.4327271,16z/data=!4m9!1m2!2m1!1sGörlitzer+Park!3m5!1s0x47a84f4c8819b367:0xedafc45032d4521b!8m2!3d52.4965928!4d13.4374489!15sCg9Hw7ZybGl0emVyIFBhcmtaIgoPZ8O2cmxpdHplciBwYXJrIg9nw7ZybGl0emVyIHBhcmuSAQRwYXJr",
+                "https://www.google.com/maps/place/Парк+Люстгартен/@52.4560514,13.0798901,11z/data=!4m9!1m2!2m1!1sLustgarten!3m5!1s0x47a851de91fd1bd9:0xa5f5cb2eae434d0a!8m2!3d52.5187!4d13.3992!15sCgpMdXN0Z2FydGVuWhgKCmx1c3RnYXJ0ZW4iCmx1c3RnYXJ0ZW6SAQRwYXJr",
+                "https://www.google.com/maps/place/Парк+Виктория/@52.4558859,13.0798897,11z/data=!4m9!1m2!2m1!1sViktoriapark!3m5!1s0x47a850243fdf52ef:0x82843cdc34c8fc10!8m2!3d52.4880375!4d13.3816235!15sCgxWaWt0b3JpYXBhcmtaHAoMdmlrdG9yaWFwYXJrIgx2aWt0b3JpYXBhcmuSAQpzdGF0ZV9wYXJrmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU13ZW1aUU1YUjNSUkFC",
+                "https://www.google.com/maps/place/Britzer+Garten/@52.4320821,13.4100319,17z/data=!4m9!1m2!2m1!1sBritzer+Garten!3m5!1s0x47a84574f5c58261:0x8135de25ff1c3372!8m2!3d52.4323861!4d13.4118391!15sCg5Ccml0emVyIEdhcnRlbloYCgZnYXJ0ZW4iDmJyaXR6ZXIgZ2FydGVukgEGZ2FyZGVu",
+                "https://www.google.com/maps/place/Большой+Тиргартен/@52.5124043,13.3366072,14z/data=!4m9!1m2!2m1!1sTiergarten!3m5!1s0x47a851ae4addd1e1:0x83c392f1dcd0ab7a!8m2!3d52.5141516!4d13.3591634!15sCgpUaWVyZ2FydGVuWhgKCnRpZXJnYXJ0ZW4iCnRpZXJnYXJ0ZW6SAQRwYXJrmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5KZGs1SVFXbG5SUkFC",
+                "https://www.google.com/maps/place/Гертен+дер+Вельт/@52.5345154,13.5712213,15z/data=!4m9!1m2!2m1!1sGardens+of+the+world+(Gärten+der+Welt)!3m5!1s0x47a84bc3b6cd0c3b:0x15bb7278a83882e6!8m2!3d52.5379611!4d13.5692782!15sCidHYXJkZW5zIG9mIHRoZSB3b3JsZCAoR8OkcnRlbiBkZXIgV2VsdClaTgolZ2FyZGVucyBvZiB0aGUgd29ybGQgZ8OkcnRlbiBkZXIgd2VsdCIlZ2FyZGVucyBvZiB0aGUgd29ybGQgZ8OkcnRlbiBkZXIgd2VsdJIBBHBhcmuaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTkRPRTFET0U5UkVBRQ",
+
         };
 
         // Add Images Resource IDs
         int[] parksImages = {
-                R.drawable.main_bg_seoul,
-                R.drawable.herastrau_park,
-                R.drawable.cismigiu_gardens,
-                R.drawable.tineretului_park,
-                R.drawable.alexandru_ioan_cuza_park,
-                R.drawable.carol_park,
-                R.drawable.drumul_taberei_park,
-                R.drawable.bucharest_botanical_garden,
-                R.drawable.kiseleff_park
+                R.drawable.charlottenburg,
+                R.drawable.gorlitzer_park,
+                R.drawable.lusgarten,
+                R.drawable.victoriapark,
+                R.drawable.britzer_garten,
+                R.drawable.tier_garten,
+                R.drawable.world_garten,
         };
 
         // Initialize ArrayList of Landmarks

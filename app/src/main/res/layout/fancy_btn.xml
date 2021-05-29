@@ -6,7 +6,7 @@
 
     <ImageView
         android:id="@+id/fancy_btn_img"
-        tools:src="@drawable/ic_parks"
+        tools:src="@drawable/ic_next"
         android:contentDescription="@string/cd_fancy_btn"
         style="@style/FancyButtonImage" />
 

@@ -10,7 +10,6 @@ public class Landmark implements Serializable {
     private String mLandmark;
     private String mDescription;
     private String mAddress;
-//    private String mHours;
     private String mPhone;
     private String mMapUri;
     private int mImageResourceId;
